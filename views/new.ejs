@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application form</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        h2{
+            text-align: center;
+        }
+        .form{
+            width: 500px;
+            height: 350px;
+            display: block;
+            margin-left:350px;
+            margin-top: 200px;
+            border: 2px solid white;
+            background-color: lightblue;
+        }
+        .form input{
+            width: 250px;
+            height: 45px;
+            font-size: 20px;
+            margin-left: 1rem;
+            margin-top: 1rem;
+        }
+        .form textarea{
+            margin-left: 1rem;
+            margin-top: 1rem;
+        }
+        .btn{
+           margin-left: 1rem;
+           background-color: aliceblue;
+           color: rgb(226, 70, 70);
+           margin-bottom: 2rem; 
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Create new post</h2>
+    <form method="post" action="/posts" class="form">
+        <input type="text" placeholder="Enter username" name="username">
+        <br><br>
+        <textarea name="content" id="text" cols="30" rows="10" placeholder="Enter text area"></textarea>
+        <br><br>
+        <button class="btn">Submit post</button>
+    </form>
+</body>
+</html>
