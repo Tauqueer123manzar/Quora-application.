@@ -1,5 +1,5 @@
 body{
-   background-color: orange;
+   background-color: rgb(212, 143, 65);
 }
 h1{
     color: brown;
@@ -7,17 +7,20 @@ h1{
 }
 .post{
     background-color: rgb(250, 241, 158);
-    width: 65%;
-    height: 65%;
+    width: 25%;
+    height: 100%;
     border-radius: 10px;
 }
 .user{
     color: black;
     font-weight: bold;
+    margin-left: 1rem;
+
 }
 .content{
     color: black;
     font-weight: bold;
+    margin-left: 1rem;
 }
 a{
     /* border: 2px solid black; */
@@ -35,4 +38,8 @@ a{
     margin-left: 1rem;
     background-color: aliceblue;
     color: rgb(226, 70, 70);
+    outline: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
 }
